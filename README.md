@@ -4,11 +4,9 @@ User project for managing user related data
 # Version
 Current version : user-1.0.0.jar
 
-# Build and test
+# Build and test - This command already integrated in docker file
 
-1. mvn clean
-2. mvn compile
-3. mvn install
+1. gradle clean build
 
 # DB
 Used H2 Db for storing data
