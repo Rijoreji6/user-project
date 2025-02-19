@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the build files (e.g., build.gradle, settings.gradle, etc.)
 COPY build.gradle .
 COPY settings.gradle .
-COPY src ./src
+COPY application/src ./src
 
 # Run Gradle clean and build
 RUN gradle clean build
